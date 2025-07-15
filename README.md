@@ -1,18 +1,54 @@
-## Getting Started
+-----
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+# Conta Terminal
 
-## Folder Structure
+Este projeto Java, desenvolvido como parte da trilha **Java Básico** da DIO, simula a criação de uma conta bancária através de interação via terminal. Ele coleta informações do usuário como número da agência, agência, nome do cliente e saldo inicial, e então exibe uma mensagem de boas-vindas com os dados da conta.
 
-The workspace contains two folders by default, where:
+## 🚀 Funcionalidades
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+  * **Coleta de Dados:** Solicita e recebe informações do usuário via terminal.
+  * **Mensagem Personalizada:** Gera uma mensagem de boas-vindas utilizando os dados fornecidos pelo cliente.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## 📋 Pré-requisitos
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Para executar este projeto, você precisará ter o **Java Development Kit (JDK)** instalado em sua máquina.
 
-## Dependency Management
+## 🖥️ Como Executar
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+1.  **Clone o repositório** (se aplicável, ou crie o arquivo `ContaTerminal.java` e cole o código fornecido).
+2.  **Compile o código:**
+    ```bash
+    javac ContaTerminal.java
+    ```
+3.  **Execute o programa:**
+    ```bash
+    java ContaTerminal
+    ```
+
+O programa então solicitará as informações no terminal:
+
+```
+Por favor, digite o número da Agência !
+Por favor, digite a Agência !
+Por favor, digite o seu nome !
+Por favor, digite o saldo inicial !
+```
+
+Após a inserção dos dados, uma mensagem similar a esta será exibida:
+
+```
+Olá [Nome Cliente], obrigado por criar uma conta em nosso banco, sua agência é [Agencia], conta [Numero] e seu saldo R$[Saldo] já está disponível para saque.
+```
+
+## 🧠 Desafio DIO
+
+Este projeto foi desenvolvido para atender aos requisitos do desafio **Sintaxe - Desafio** da trilha **Java Básico** da DIO, focando nos seguintes conceitos:
+
+  * Declaração de variáveis
+  * Interação com o terminal (`main args` e `Scanner`)
+  * Concatenação de `String` (utilizando o método `concat`)
+
+-----
+
+
+Ficou com alguma dúvida sobre como executar ou quer sugerir melhorias? Sinta-se à vontade para abrir uma issue\!
