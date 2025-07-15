@@ -22,7 +22,5 @@ public class ContaTerminal {
         .concat(" e seu saldo R$" + saldo + " já está disponível para saque.");
         System.out.println(result);
         scanner.close();
-        //Olá [Nome Cliente], obrigado por criar uma conta em nosso banco, sua agência é [Agencia], conta [Numero] e seu saldo [Saldo] já está disponível para saque
-
     }
 }
